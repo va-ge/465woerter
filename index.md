@@ -4,8 +4,8 @@
 
 [mensch](mensch)
 
-[lücke](lücke)
+[lücke](luecke)
 
-[körper](körper)
+[körper](koerper)
 
 [stadt](stadt)
