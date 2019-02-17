@@ -8,11 +8,11 @@ theme: jekyll-theme-midnight
 collections:
   mensch:
     output: true
-  lücke:
+  luecke:
     output: true
   stadt:
     output: true
-  körper:
+  koerper:
     output: true
     
 baseurl: "/465woerter"
