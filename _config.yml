@@ -2,3 +2,21 @@ theme: jekyll-theme-midnight
 collections:
   menschen:
     output: true
+  luecken:
+    output: true
+  staedte:
+    output: true
+  koerper:
+    output: true
+
+plugins:
+- jekyll-avatar
+- jekyll-feed
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
+
+sass:
+  style: compressed
