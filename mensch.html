@@ -7,6 +7,9 @@ layout: default
 
 {{ site.collections }}
 
+{{ site.posts }}
+
 {% for mmensch in site.menschen %}
+{{ mmensch }}
 <h2>{{ mmensch.relative_path }}<br/></h2>
 {% endfor %}
