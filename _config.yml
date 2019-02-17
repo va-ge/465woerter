@@ -3,11 +3,11 @@ theme: jekyll-theme-midnight
 collections:
   mensch:
     output: true
-  luecken:
+  lücke:
     output: true
-  staedte:
+  stadt:
     output: true
-  koerper:
+  körper:
     output: true
     
 # baseurl: "/"
