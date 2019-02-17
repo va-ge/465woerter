@@ -1,5 +1,9 @@
+---
+name: mensch
+---
+
 # mensch
 
 {% for m in site.mensch %}
-  [{{ m.name }}]({{m.relative_path}} )
+  [{{ m.name }}]({{m.relative_path}})
 {% endfor %}
