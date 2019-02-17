@@ -10,7 +10,7 @@ collections:
   körper:
     output: true
     
-# baseurl: "/"
+baseurl: "/465woerter"
 
 permalink: none
 
