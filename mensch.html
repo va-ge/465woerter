@@ -5,20 +5,7 @@ layout: default
 
 <h1>mensch</h1>
 
-# collections
-{{ site.collections }}
-
-# posts
-{{ site.posts }}
-
-# mensch
-{% for mmensch in site.menschen %}
-  {{ mmensch }}
-  <h2>{{ mmensch.relative_path }}<br/></h2>
-{% endfor %}
-
-# collection
-{% for c in site.collections %}
-  {{ c }}
+{% for m in site.menschen %}
+<h2><a href="{{ m.relative_path }}">{{ m.title }}</a><br/></h2>
 {% endfor %}
 
