@@ -5,8 +5,8 @@ layout: default
 
 <h1>mensch</h1>
 
-{% for m in site.mensch %}
+{% for p in site.mensch %}
   <article>
-    <h2><a href="{{ m.path }}">{{ m.title }}</a></h2>
+    <h2><a href="mensch/{{ p.title }}">{{ p.title }}</a></h2>
   </article>
 {% endfor %}
