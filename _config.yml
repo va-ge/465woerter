@@ -1,9 +1,11 @@
 theme: jekyll-theme-midnight
 
-collections_dir: ./
+collections_dir:
+
 collections:
   menschen:
-    output: true
+    output: 
+    true
   luecken:
     output: true
   staedte:
