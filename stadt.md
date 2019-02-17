@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<h1>stadt</h1>
+
+{% for p in site.stadt %}
+  <article>
+    <h2><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h2>
+  </article>
+{% endfor %}
