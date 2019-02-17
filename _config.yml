@@ -1,7 +1,7 @@
 theme: jekyll-theme-midnight
 
 collections:
-  menschen:
+  mensch:
     output: true
   luecken:
     output: true
