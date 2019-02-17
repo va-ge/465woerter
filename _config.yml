@@ -10,7 +10,7 @@ collections:
   koerper:
     output: true
     
-baseurl: "/"
+# baseurl: "/"
 
 permalink: none
 
