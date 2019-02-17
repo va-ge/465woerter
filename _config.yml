@@ -2,8 +2,7 @@ theme: jekyll-theme-midnight
 
 collections:
   menschen:
-    output: 
-    true
+    output: true
   luecken:
     output: true
   staedte:
