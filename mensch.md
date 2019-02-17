@@ -1,10 +1,13 @@
 ---
-
+layout: default
 ---
+
+  {{ content }}
 
 # mensch
 
 {% for m in site.menschen %}
-  {{ m.name }} {{ m.relative_path }}
+
+  {{ m.relative_path }}
   
 {% endfor %}
