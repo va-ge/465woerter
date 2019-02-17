@@ -9,3 +9,22 @@ layout: default
   <h2><a href="{{ m.url }}">{{ m.title }}</a><br/></h2>
 {% endfor %}
 
+
+{% for collection in site.collections %}
+
+  {% assign name = collection.label %}
+
+  <section>
+    <h1>{{ name }}</h1>
+
+    {% for page in site.[name] %}
+    <article>
+      <h2>{{ page.title }}</h2>
+      <p>{{ page.content | markdownify }}</p>
+    </article>
+    {% endfor %}
+    
+  </section>
+
+{% endfor %}
+
