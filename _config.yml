@@ -9,6 +9,10 @@ collections:
     output: true
   koerper:
     output: true
+    
+baseurl: "/"
+
+permalink: none
 
 plugins:
 - jekyll-avatar
