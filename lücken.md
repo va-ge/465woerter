@@ -2,11 +2,10 @@
 layout: default
 ---
 
-
 <h1>lücke</h1>
 
-{% for m in site.lücke %}
+{% for p in site.lücke %}
   <article>
-    <h2><a href="{{ m.url }}">{{ m.title }}</a></h2>
+    <h2><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h2>
   </article>
 {% endfor %}
