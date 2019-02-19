@@ -8,13 +8,17 @@ theme: jekyll-theme-midnight
 collections:
   mensch:
     output: true
+    title: mensch
   luecke:
     output: true
+    title: lücke
   stadt:
     output: true
+    title: stadt
   koerper:
     output: true
-    
+    title: körper
+
 baseurl: "/465woerter"
 
 permalink: none

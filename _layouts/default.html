@@ -27,8 +27,8 @@
           {% endif %}
           {% for collection in site.collections %}
 	    {% if collection.label != 'posts' %}
-            <li class="title"><a href="{{ collection.label | relative_url }}">{{ collection.label }}</a></li>
-	    {% endif %}              
+            <li class="title"><a href="{{ collection.label | relative_url }}">{{ collection.title }}</a></li>
+	    {% endif %}
 	  {% endfor %}
         </nav>
       </div><!-- end header -->
