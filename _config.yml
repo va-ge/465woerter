@@ -20,7 +20,7 @@ collections:
     output: true
     title: körper
 
-baseurl: "/465woerter"
+# baseurl: "/465woerter"
 
 permalink: none
 
