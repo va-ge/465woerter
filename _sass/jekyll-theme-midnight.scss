@@ -306,3 +306,10 @@ section {
     display: none;
   }
 }
+
+@media screen and (max-width: 480px) {
+  nav {
+    display: block;
+    overflow-x: auto;
+  }
+}
