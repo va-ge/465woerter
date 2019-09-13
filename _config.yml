@@ -7,18 +7,24 @@ google_analytics:
 theme: jekyll-theme-midnight
 
 collections:
+  sinn:
+    output: true
+    title: sinn
   mensch:
     output: true
     title: mensch
   luecke:
     output: true
     title: lücke
-  stadt:
+  lust:
     output: true
-    title: stadt
+    title: lust
   koerper:
     output: true
     title: körper
+  stadt:
+    output: true
+    title: stadt
 
 # baseurl: "https://465woerter.de/"
 
