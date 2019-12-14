@@ -4,7 +4,7 @@ layout: default
 
 <h1>sinn</h1>
 
-{% for p in site.sinn %}
+{% for p in site.sinn reversed %}
   <article>
     <h2><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h2>
   </article>

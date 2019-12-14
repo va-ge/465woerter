@@ -5,7 +5,7 @@ layout: default
 
 <h1>mensch</h1>
 
-{% for p in site.mensch %}
+{% for p in site.mensch reversed %}
   <article>
     <h2><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h2>
   </article>
