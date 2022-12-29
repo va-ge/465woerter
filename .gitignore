@@ -6,3 +6,5 @@ storage
 .node-gyp
 .npm
 .DS_Store
+rewrite-author.sh
+.gitignore
